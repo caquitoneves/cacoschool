@@ -21,7 +21,7 @@ export default function AuthLayout({ children }: { children: ReactNode }) {
       <div className="flex w-full max-w-sm flex-col gap-6">
         <Link className="flex items-center self-center gap-2 text-2xl" href="/">
           <CacoSchoolLogo className="w-10 h-10" />
-          <div className="">
+          <div>
             <span className="font-extrabold">caco</span>school
           </div>
         </Link>
